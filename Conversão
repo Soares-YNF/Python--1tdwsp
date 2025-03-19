@@ -1,0 +1,15 @@
+#Algoritmo: Converter_Reias_dolares
+
+reais = 0
+cotacao_dolares = 0
+conversao = 0
+print("Bem vindo a convercao de moeda")
+reais = float (input("Digite o valor que quer converter Em Reais: \n"))
+cotacao_dolares = float (input("Digite o valor da cotação do dolar hoje em dia: \n"))
+
+conversao = reais/cotacao_dolares
+
+print("Com esta quantia é possivel comprar: ")
+print(conversao)
+print(" dolares ")
+print("Obrigado usar nosso programa")
